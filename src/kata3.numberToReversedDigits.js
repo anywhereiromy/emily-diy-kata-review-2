@@ -1,6 +1,7 @@
 const numberToReversedDigits = number => {
-  const myArray = Array.from(number.toString()).map(Number);
-  return myArray.reverse();
+  return Array.from(number.toString())
+    .map(Number)
+    .reverse();
 };
 
 module.exports = numberToReversedDigits;
